@@ -1,0 +1,24 @@
+.header-container {
+    width: 100%;
+    height: 150px;
+    background-color: bisque;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: chocolate;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+
+/* para aplicar margin exeto no primeiro elemento: */
+a + a{
+    margin-left: 10px;
+}
+
+a:hover{
+    color: rgb(221, 156, 109);
+}
